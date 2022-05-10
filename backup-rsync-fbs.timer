@@ -7,7 +7,7 @@ RefuseManualStop=no   # Allow manual stops
 #Execute job if it missed a run due to machine being off
 Persistent=true
 OnCalendar=*-*-7
-Unit=schedule-test.service
+Unit=backup-rsync-fbs.service
 
 [Install]
 WantedBy=timers.target
